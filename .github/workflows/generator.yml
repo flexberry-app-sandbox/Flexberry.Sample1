@@ -46,7 +46,7 @@ jobs:
           mono ./gen/NewPlatform.Flexberry.Designer.CommandLine.0.1.0-alpha20/tools/flexberry.exe ./GenConfig.fdg "${FLEXBERRY_TOKEN}"
       - name: Tune ssh-keys
         env:
-            PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}      
+            PRIVATE_KEY: ${{ secrets.OPENSSH_PRIVATE_KEY }}      
         run: |
           set -x
           export PRIVATE_KEY
