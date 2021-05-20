@@ -28,25 +28,25 @@ export default Controller.extend({
             link: 'new-platform-sample-country-l',
             caption: i18n.t('forms.application.sitemap.books.new-platform-sample-country-l.caption'),
             title: i18n.t('forms.application.sitemap.books.new-platform-sample-country-l.title'),
-            icon: 'suitcase',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'new-platform-sample-book-l',
             caption: i18n.t('forms.application.sitemap.books.new-platform-sample-book-l.caption'),
             title: i18n.t('forms.application.sitemap.books.new-platform-sample-book-l.title'),
-            icon: 'address card',
+            icon: 'file',
             children: null
           }, {
             link: 'new-platform-sample-author-l',
             caption: i18n.t('forms.application.sitemap.books.new-platform-sample-author-l.caption'),
             title: i18n.t('forms.application.sitemap.books.new-platform-sample-author-l.title'),
-            icon: 'paperclip',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'new-platform-sample-language-l',
             caption: i18n.t('forms.application.sitemap.books.new-platform-sample-language-l.caption'),
             title: i18n.t('forms.application.sitemap.books.new-platform-sample-language-l.title'),
-            icon: 'paperclip',
+            icon: 'edit',
             children: null
           }]
         }
